@@ -1,0 +1,7 @@
+.obsidian/
+.trash/
+.idea/
+.smart-env
+.DS_Store
+
+!data/.gitkeep

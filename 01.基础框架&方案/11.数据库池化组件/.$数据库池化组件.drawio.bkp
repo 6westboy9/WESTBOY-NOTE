@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="uT3-jsc-2mVcIvBY6Wm6">
+    <mxGraphModel dx="3274" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q0ujl1z6wfc4IwXzxCWg-1" value="java.sql.Statement#setQueryTimeout" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="690" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0ujl1z6wfc4IwXzxCWg-2" value="org.springframework.jdbc.core.JdbcTemplate#applyStatementSettings" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="260" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0ujl1z6wfc4IwXzxCWg-3" value="org.springframework.jdbc.core.JdbcTemplate#execute" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="180" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0ujl1z6wfc4IwXzxCWg-4" value="org.springframework.jdbc.datasource.DataSourceUtils#applyTimeout" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="360" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0ujl1z6wfc4IwXzxCWg-5" value="必须&lt;font color=&quot;#ff0000&quot;&gt;PoolBase#isQueryTimeoutSupported!=0&lt;/font&gt;（默认开启）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="230" width="360" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

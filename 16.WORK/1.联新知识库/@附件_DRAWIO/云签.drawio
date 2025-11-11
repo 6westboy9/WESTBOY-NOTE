@@ -1,0 +1,167 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="uT3-jsc-2mVcIvBY6Wm6">
+    <mxGraphModel dx="3274" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-1" target="yamE3Ykn9X1kaNBhfTYX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-1" target="yamE3Ykn9X1kaNBhfTYX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-1" value="签名护士长A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-2" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-4" target="yamE3Ykn9X1kaNBhfTYX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-4" value="signDataIdA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-10" value="浏览器窗口1_TAB1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-12" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-13" value="signDataIdA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-14" value="浏览器窗口1_TAB2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-16" value="共享" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="480" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="yamE3Ykn9X1kaNBhfTYX-24" target="yamE3Ykn9X1kaNBhfTYX-28" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-24" value="签名护士长A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-25" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" source="yamE3Ykn9X1kaNBhfTYX-27" target="yamE3Ykn9X1kaNBhfTYX-30" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-27" value="signDataIdA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-28" value="浏览器窗口1_TAB1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-29" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-30" value="signDataIdB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-31" value="浏览器窗口1_TAB2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-32" value="更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="480" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-33" target="yamE3Ykn9X1kaNBhfTYX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-33" value="签名护士长A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="yamE3Ykn9X1kaNBhfTYX-60" target="yamE3Ykn9X1kaNBhfTYX-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-38" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-40" target="yamE3Ykn9X1kaNBhfTYX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-40" value="signDataIdA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-41" value="浏览器窗口1_TAB1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-42" value="扫码完成" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-43" value="signDataIdB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-44" value="浏览器窗口2_TAB1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="yamE3Ykn9X1kaNBhfTYX-61" target="yamE3Ykn9X1kaNBhfTYX-44" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-48" value="要失效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-50" target="yamE3Ykn9X1kaNBhfTYX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-50" value="登录护士2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-51" target="yamE3Ykn9X1kaNBhfTYX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-51" value="登录护士1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-56" target="yamE3Ykn9X1kaNBhfTYX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-56" value="登录护士1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-58" target="yamE3Ykn9X1kaNBhfTYX-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-58" value="登录护士1/2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yamE3Ykn9X1kaNBhfTYX-59" target="yamE3Ykn9X1kaNBhfTYX-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-59" value="登录护士1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-60" value="签名护士长A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-61" value="签名护士长A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-64" value="signDataIdB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-65" value="msspId为空 弹出二维码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-66" value="flag=true" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-67" value="signDataIdC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="580" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-68" value="msspId为空 弹出二维码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yamE3Ykn9X1kaNBhfTYX-69" value="flag=false" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Eras ITC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

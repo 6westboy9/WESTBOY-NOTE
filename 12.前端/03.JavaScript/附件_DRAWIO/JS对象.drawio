@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="第 1 页" id="_S9wHxQrWtVMETNBD8qJ">
+    <mxGraphModel dx="2474" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-3" value="&lt;b&gt;对象的原型&lt;/b&gt;&lt;div&gt;对象的__proto__属性称为&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;隐式原型&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="230" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-7" value="var f2 = new Foo()" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="150" y="180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#0000CC;strokeWidth=2;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-53" target="B-yI3Fji3xeoaRIaCGKh-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="260" />
+              <mxPoint x="10" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-8" value="__proto__" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-13" target="B-yI3Fji3xeoaRIaCGKh-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-13" value="对象的隐式原型&lt;b&gt;指向&lt;/b&gt;&lt;div&gt;构造函数的显示原型对象&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-17" value="&lt;span style=&quot;&quot;&gt;f1.__proto__ === F&lt;/span&gt;&lt;span style=&quot;&quot;&gt;oo.prototype&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;f2.__proto__ === F&lt;/span&gt;&lt;span style=&quot;&quot;&gt;oo.prototype&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="240" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-18" value="&lt;b&gt;Foo函数对象&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;function Foo() { ...&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;&amp;nbsp;}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="249.91" y="10" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-19" value="parentScope" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="250.1" y="60.87" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-26" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontStyle=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#0000CC;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-52" target="B-yI3Fji3xeoaRIaCGKh-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-21" value="prototype" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="250.1" y="80.87" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Georgia;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-22" target="B-yI3Fji3xeoaRIaCGKh-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-22" value="函数执行体" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="250.1" y="100.87" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-23" value="作用域链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="390.1" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-24" value="显示原型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="390.1" y="80.87" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-25" value="&lt;b&gt;Foo函数的原型对象&lt;/b&gt;&lt;div&gt;Foo.&lt;span style=&quot;background-color: initial;&quot;&gt;prototype = {}&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="10" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-28" value="f2对象" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#0000CC;strokeWidth=2;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-54" target="B-yI3Fji3xeoaRIaCGKh-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="420" />
+              <mxPoint x="10" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-29" value="__proto__" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="410" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-31" value="&lt;b&gt;函数的原型&lt;/b&gt;&lt;div&gt;函数的&lt;span style=&quot;background-color: initial;&quot;&gt;prototype属性称为&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;显示原型&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="-70" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-34" value="&lt;font&gt;创建对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="150" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-38" value="f1对象" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-43" value="var f1 = new Foo()" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="150" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Georgia;fontStyle=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#FF0000;" parent="1" source="B-yI3Fji3xeoaRIaCGKh-46" target="B-yI3Fji3xeoaRIaCGKh-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="60" />
+              <mxPoint x="-180" y="-20" />
+              <mxPoint x="282" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-46" value="constructor" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="50" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-52" value="0X100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFE599;strokeColor=#6c8ebf;fontStyle=0;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-53" value="0X100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFE599;strokeColor=#6c8ebf;fontStyle=0;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-54" value="0X100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFE599;strokeColor=#6c8ebf;fontStyle=0;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="50" y="410" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-55" value="0X100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#FFE599;strokeColor=#6c8ebf;fontStyle=0;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="-30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-56" value="红色字体表示属性" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-58" value="f1.__proto__" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#7EA6E0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-59" value="f2.__proto__" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#7EA6E0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-60" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Foo.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;prototype&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#7EA6E0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="90" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B-yI3Fji3xeoaRIaCGKh-61" value="Foo.&lt;span style=&quot;background-color: initial;&quot;&gt;prototype.&lt;/span&gt;constructor" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#7EA6E0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uOGDbs53xN2qh2sc6uki-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=2;" parent="1" source="uOGDbs53xN2qh2sc6uki-1" target="B-yI3Fji3xeoaRIaCGKh-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="275" />
+              <mxPoint x="600" y="-20" />
+              <mxPoint x="315" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOGDbs53xN2qh2sc6uki-1" value="constructor" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uOGDbs53xN2qh2sc6uki-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=2;" parent="1" source="uOGDbs53xN2qh2sc6uki-2" target="B-yI3Fji3xeoaRIaCGKh-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="440" />
+              <mxPoint x="600" y="-20" />
+              <mxPoint x="315" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOGDbs53xN2qh2sc6uki-2" value="constructor" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontFamily=Georgia;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

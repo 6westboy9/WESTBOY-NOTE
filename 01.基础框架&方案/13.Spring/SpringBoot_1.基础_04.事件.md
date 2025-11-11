@@ -1,0 +1,2 @@
+- [SpringBoot事件监听机制](https://juejin.cn/post/7034494768977707045)
+- [SpringBoot中@EventListener注解的使用](https://blog.csdn.net/qq_37687594/article/details/113200974)

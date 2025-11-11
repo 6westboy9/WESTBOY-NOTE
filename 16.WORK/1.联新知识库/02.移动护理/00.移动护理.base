@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "16.WORK/1.联新知识库/02.移动护理"
+        - file.ext != "base"
+    order:
+      - file.name
+      - file.size
+      - file.ctime
+    columnSize:
+      file.name: 353
+      file.ctime: 506
+  - type: table
+    name: 视图

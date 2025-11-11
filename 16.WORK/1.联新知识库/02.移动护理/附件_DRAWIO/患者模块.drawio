@@ -1,0 +1,178 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="患者事件" id="sjQTYtchb-m9idjAh_-3">
+    <mxGraphModel dx="2874" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-1" value="PatEventRecordService#createEventDatas" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="330" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-2" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-2" value="PatEventRecordService#sendToHisDatas" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-540" y="100" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-3" target="T_qrK1MHilJZwI8Th3eu-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-3" value="PatEventRecordService#saveHandleOperatePatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="40" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="T_qrK1MHilJZwI8Th3eu-4" target="T_qrK1MHilJZwI8Th3eu-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-4" value="PatEventRecordService#updateEvents" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-650" y="-70" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-5" target="T_qrK1MHilJZwI8Th3eu-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-5" target="T_qrK1MHilJZwI8Th3eu-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-5" value="IPatEventRecordService#batchSavePatEventRecords" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-170" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-6" target="T_qrK1MHilJZwI8Th3eu-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-6" value="MnisPatEventRecordController#batchSavePatEventRecords" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-220" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-8" value="POST /mnis/patEventRecords/batchSave" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-240" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-9" value="批量保存事件数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-260" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-10" target="T_qrK1MHilJZwI8Th3eu-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-10" value="PatEventRecordService#saveEvents" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="-70" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-19" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-19" value="IPatEventRecordService#addPatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="100" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="T_qrK1MHilJZwI8Th3eu-21" target="T_qrK1MHilJZwI8Th3eu-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-21" value="MnisPatEventRecordController#addPatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-350" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_qrK1MHilJZwI8Th3eu-22" value="POST&amp;nbsp;/mnis/patEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-370" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-2" target="T_qrK1MHilJZwI8Th3eu-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-2" target="jEyo9kt1Ld3pl4kXtEUZ-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-2" value="DocDataNurseRecordService#handleChildbirthResult" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="-5" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-3" target="jEyo9kt1Ld3pl4kXtEUZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-3" value="DocDataNurseRecordService#batchSaveDocNurseRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="-70" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-6" value="保存护理记录数据&lt;span style=&quot;background-color: initial;&quot;&gt;核心方法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry y="-90" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-74" target="jEyo9kt1Ld3pl4kXtEUZ-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-74" value="IPatEventRecordService#dealPatEventRecordForShift" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="130" y="40" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-75" target="jEyo9kt1Ld3pl4kXtEUZ-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-75" value="MnisPatEventRecordController#updatePatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-280" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-76" value="POST&amp;nbsp;/mnis/patEventRecord/shift" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-300" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.864;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-74" target="T_qrK1MHilJZwI8Th3eu-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-79" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-79" value="IPatEventRecordService#updatePatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="390" y="100" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-80" value="新增事件数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-390" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-82" target="jEyo9kt1Ld3pl4kXtEUZ-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-82" value="MnisPatEventRecordController#updatePatEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-370" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-83" value="PUT /mnis/patEventRecord" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-390" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-84" value="更新事件数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-410" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-86" value="交接班的患者事件更新或者新增" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-320" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-88" value="新增" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-89" value="更新" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-90" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-90" value="PatEventRecordService#deletePatEventRecordByKey" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="655" y="100" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-92" target="jEyo9kt1Ld3pl4kXtEUZ-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-92" value="MnisPatEventRecordController#deletePatEventRecordByKey" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-290" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-93" value="DELETE /mnis/patEventRecord/{seqId}" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-310" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-94" value="删除事件数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-330" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-97" value="删除" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="-25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-98" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-98" value="PatEventRecordService#deleteEventToHis" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="850" y="170" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-100" value="调用地方比较多" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="910" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-101" value="调用地方比较多" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jEyo9kt1Ld3pl4kXtEUZ-102" target="T_qrK1MHilJZwI8Th3eu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jEyo9kt1Ld3pl4kXtEUZ-102" value="PatEventRecordService#updateEventToHis" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Cambria;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="990" y="250" width="240" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
