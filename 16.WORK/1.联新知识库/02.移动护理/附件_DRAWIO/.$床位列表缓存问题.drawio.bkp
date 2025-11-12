@@ -54,7 +54,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="42Avdi72lisHWHwjjbEz-11" value="&lt;div data-zone-id=&quot;0&quot; data-line-index=&quot;0&quot; data-line=&quot;true&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;GET hospital/hosBedExt/wardBedSequence&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?wardCode=309&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;fontFamily=LXGW WenKai Mono GB Screen;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="410" width="315" height="30" as="geometry" />
+          <mxGeometry x="160" y="410" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="42Avdi72lisHWHwjjbEz-12" value="查询病区所有床位" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=LXGW WenKai Mono GB Screen;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="260" y="470" width="120" height="20" as="geometry" />
