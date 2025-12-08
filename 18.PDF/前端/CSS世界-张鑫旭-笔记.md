@@ -3,9 +3,20 @@
 > ([[CSS世界-张鑫旭.pdf#page=28&selection=114,0,156,16&color=red|p.13]])
 > “块级元素”对应的英文是 block-level element，常见的块级元素有 `<div>`、`<li>` 和`<table>` 等。需要注意是，<u>“块级元素”和“display 为 block 的元素”不是一个概念</u>。例如，`<li>` 元素默认的 display 值是 list-item，`<table>` 元素默认的 display 值是 table，但是它们均是“块级元素”，因为它们都符合块级元素的基本特征，也就是一个水平流上只能单独显示一个元素，多个块级元素则换行显示。
 
+### 3.1.1 为什么list-item元素会出现项目符号
+
+### 3.1.2 display:inline-table的盒子上怎么组成的
+### 3.1.3 width/height作用在哪个盒子上
+
 > ([[CSS世界-张鑫旭.pdf#page=31&selection=120,31,124,1&color=red|p.16]])
 > 宽高作用是内在盒子，也就是“容器盒子”
 
+## 3.2 width/height作用的具体细节
+
+### 3.2.1 深藏不漏的width:auto
+
+> ([[CSS世界-张鑫旭.pdf#page=32&selection=128,1,141,25&color=red|p.17]])
+> 除非有明确的 width 相关设置，否则上面 3 种情况尺寸都不会主动超过父级容器宽度的，但是存在一些特殊情况。例如，内容很长的连续的英文和数字，或者内联元素被设置了 white-space:nowrap
 
 > ([[CSS世界-张鑫旭.pdf#page=33&selection=46,0,54,1&color=red|p.18]])
 > 在 CSS 世界中，盒子分“内在盒子”和“外在盒子”，显示也分“内部显示”和“外部显示”，同样地，尺寸也分“内部尺寸”和“外部尺寸”。
@@ -60,11 +71,13 @@
 </div>
 ```
 
+---
+
 ![[Pasted image 20251208192401.png|L|300]]
 
 ![[Pasted image 20251208194837.png|L|400]]
 
-
+---
 
 设置了宽度100%
 
@@ -72,3 +85,10 @@
 
 
 ![[Pasted image 20251208194754.png|L|400]]
+
+
+> ([[CSS世界-张鑫旭.pdf#page=36&selection=8,0,16,2&color=red|p.21]])
+> 按钮就是 CSS 世界中极具代表性的 inline-block 元素
+
+
+### 3.2.2 width值作用的细节
