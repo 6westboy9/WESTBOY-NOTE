@@ -1,0 +1,19 @@
+formulas:
+  未命名: ""
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder.contains("16.WORK/2.联新工作/02_任务/2025")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.basename
+    sort:
+      - property: file.basename
+        direction: ASC
+  - type: table
+    name: 视图
