@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="4">
   <diagram name="首页" id="B2UZTkP1R9xtfX_w2Zfq">
     <mxGraphModel dx="2452" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1494,6 +1494,305 @@
         <mxCell id="1" parent="0" />
         <mxCell id="dL9fJ6RGYPXpIseFXq-n-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;网格线&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" parent="1" vertex="1">
           <mxGeometry x="530" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n9Bnav9PVt0-RHH2esoq" name="患者文书页">
+    <mxGraphModel dx="2879" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="170" width="150" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-136" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="1380" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="230" width="150" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;体温单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;护理计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;护理记录单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;护理评估单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-37" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-40" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-54" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-55" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-58" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="390" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-61" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-62" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-64" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-65" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-66" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-67" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-68" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-69" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-70" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-71" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-74" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-76" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-78" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-79" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-80" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-81" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-82" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-83" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-84" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="600" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-85" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="600" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-86" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-87" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="570" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-88" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-89" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="660" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-90" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-91" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="660" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-92" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-93" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="630" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-94" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-95" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="720" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-96" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-97" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="720" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-98" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-99" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="690" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-100" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="690" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-101" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="780" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-102" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-103" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-104" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="750" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-105" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-106" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="750" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-107" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="840" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-108" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-109" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="840" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-110" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="810" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-111" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-112" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="900" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-114" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="900" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-115" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="900" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="870" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-117" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="870" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-118" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="870" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-119" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="960" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-120" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="960" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="960" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-122" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="930" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-123" value="&lt;div style=&quot;text-align: left;&quot;&gt;1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;张三&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="930" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-126" value="&lt;div style=&quot;text-align: left;&quot;&gt;体温单&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-127" value="&lt;div style=&quot;text-align: left;&quot;&gt;护理计划&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-128" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="1360" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-129" value="&lt;div style=&quot;text-align: left;&quot;&gt;患者信息栏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=LXGW WenKai Mono GB Screen;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="170" width="1530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-130" value="&lt;div style=&quot;text-align: left;&quot;&gt;搜索&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-131" value="&lt;div style=&quot;text-align: left;&quot;&gt;LOGO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="120" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-132" value="&lt;div style=&quot;text-align: left;&quot;&gt;病区&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-133" value="&lt;div style=&quot;text-align: left;&quot;&gt;本组&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-134" value="&lt;div style=&quot;text-align: left;&quot;&gt;转出&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-135" value="&lt;div style=&quot;text-align: left;&quot;&gt;出院&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontFamily=LXGW WenKai Mono GB Screen;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldwr5Ul08UDqgpchBmHn-138" value="&lt;div style=&quot;text-align: left;&quot;&gt;顶部导航栏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=LXGW WenKai Mono GB Screen;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="120" width="1530" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
