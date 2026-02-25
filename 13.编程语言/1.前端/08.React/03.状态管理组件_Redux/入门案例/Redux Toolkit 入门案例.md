@@ -155,10 +155,8 @@ import { useState } from 'react';
 function App() {
   // 读取状态
   const count = useAppSelector((state) => state.counter.value);
-
   // 获取 dispatch 函数
   const dispatch = useAppDispatch();
-
   const [input, setInput] = useState<number>(0);
 
   function handleIncrementByAmount() {
@@ -193,37 +191,82 @@ function App() {
 
 ```mermaid
 graph TB
-    subgraph "第一步: 创建 Slice"
-        A["counterSlice.ts<br/>createSlice()"]
-        A --> B["生成 counterSlice 对象"]
-        B --> C["导出 actions<br/>increment / decrement"]
-        B --> D["导出 reducer<br/>counterReducer"]
-    end
 
-    subgraph "第二步: 配置 Store"
-        E["store.ts<br/>configureStore()"]
-        C -.->|"不直接使用"| E
-        D -->|"导入"| E
-        E --> F["创建 store"]
-    end
+subgraph "第一步: 创建 Slice"
 
-    subgraph "第三步: 应用使用"
-        G["组件中使用"]
-        F -->|"导入 store"| H["Provider 包裹应用"]
-        F -->|"导入 hooks"| I["useSelector / useDispatch"]
-        C -->|"导入 actions"| I
-    end
+A["counterSlice.ts<br/>createSlice()"]
 
-    subgraph "数据流向"
-        I -->|"dispatch(action)"| J["Action → Reducer"]
-        J -->|"更新状态"| K["新 State"]
-        K -->|"触发重渲染"| I
-    end
+A --> B["生成 counterSlice 对象"]
 
-    style A fill:#e1f5fe
-    style E fill:#fff3e0
-    style I fill:#f3e5f5
-    style K fill:#e8f5e9
+B --> C["导出 actions<br/>increment / decrement"]
+
+B --> D["导出 reducer<br/>counterReducer"]
+
+end
+
+  
+
+subgraph "第二步: 配置 Store"
+
+E["store.ts<br/>configureStore()"]
+
+C -->|"不直接使用"| E
+
+D -->|"导入"| E
+
+E --> F["创建 store"]
+
+E --> M["导出类型<br/>RootState / AppDispatch"]
+
+end
+
+  
+
+subgraph "第三步: 类型化 Hooks"
+
+N["hooks.ts"]
+
+M -->|"导入类型"| N
+
+O["react-redux<br/>useDispatch / useSelector"] -->|"原始 hooks"| N
+
+N --> P["useAppDispatch<br/>useAppSelector"]
+
+end
+
+  
+
+subgraph "第四步: 应用使用"
+
+F -->|"导入 store"| H["Provider 包裹应用"]
+
+P -->|"导入类型化 hooks"| I["在组件中使用"]
+
+C -->|"导入 actions"| I
+
+end
+
+  
+
+subgraph "数据流向"
+
+I -->|"dispatch(action)"| J["Action → Reducer"]
+
+J -->|"更新状态"| K["新 State"]
+
+K -->|"触发重渲染"| I
+
+end
+
+  
+
+style A fill:#e1f5fe
+
+style E fill:#fff3e0
+
+style I fill:#f3e5f5
+
+style K fill:#e8f5e9
 ```
 
 ## 六、数据流
