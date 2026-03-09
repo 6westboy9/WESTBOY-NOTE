@@ -3,5 +3,7 @@
 .idea/
 .smart-env
 .DS_Store
+.vscode/
+.claude
 
 !data/.gitkeep
