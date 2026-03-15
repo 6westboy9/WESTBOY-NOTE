@@ -3,9 +3,16 @@
 >Java群  
 
 项目：mnis
-内容：11353（3.7）【赣州市人民医院】-护理交接单存在被覆盖的情况需要增加自动刷新功能
-分支：feat_release_mnis_v3.8_wpb_11388 into <font color="#245bdb">qa_mnis_v3.8</font>
-MR：http://10.2.3.111:86/backend_group/backend_application/mnis/merge_requests/7920
+内容：更新jvppeteer升级jvppeteer版本从1.1.5到3.4.0
+分支：refactor_release_mnis_v3.8_wpb_260309 into release_mnis_v3.8
+MR：
+
+**注意事项：**
+
+1. @ 3.4.0版本没有networkidle0 使用 networkIdle 替换
+
+ ![[Pasted image 20260309174055.png|L|600]]
+
 
 # 2.脚本  
   
@@ -22,30 +29,30 @@ MR：http://10.2.3.111:86/backend_group/backend_application/mnis/merge_requests/
   
 测试环境：10.2.3.170  
 项目：mnis
-单号：11388  
-版本号：MNIS V3.8.164
-分支：feat_release_mnis_v3.8_wpb_11388
+单号：38810  
+版本号：MNIS V3.8.166
+分支：
   
-MySQL脚本  
-  
-```sql
+MySQL脚本
 
-```
-  
 > [!danger] 注意事项  
 > 脚本后不要带 `;` ~  
   
-MongDB脚本  
+MongDB脚本
 
 ```js
 
 ```
 
+```js
 
+```
+  
 # 3.提测单  
   
 >提测群  
 
-http://10.2.3.109:1024/zentao/testtask-view-10667.html
 
 # 4.其它
+
+
