@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="2">
   <diagram name="第 1 页" id="zhWnuwBiUE2aGuyql2JR">
     <mxGraphModel dx="1710" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,6 +174,69 @@
         </mxCell>
         <mxCell id="aIVGFJ02YZdODolLvVdq-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#333333;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="450" y="630" width="250" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W26l0DM7Hf37z5sXcD2L" name="第 2 页">
+    <mxGraphModel dx="2052" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="O6lHPMQCJfKuqvW2Ong_-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-1" value="床号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O6lHPMQCJfKuqvW2Ong_-2" target="O6lHPMQCJfKuqvW2Ong_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-2" value="病区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O6lHPMQCJfKuqvW2Ong_-3" target="O6lHPMQCJfKuqvW2Ong_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="840" />
+              <mxPoint x="490" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-3" value="事件/日程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="750" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O6lHPMQCJfKuqvW2Ong_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="840" />
+              <mxPoint x="490" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-4" value="转科记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="750" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-8" value="床号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-9" value="计算结果集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="750" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-15" value="转科记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="850" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-16" value="事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="890" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-17" value="事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="890" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O6lHPMQCJfKuqvW2Ong_-18" value="事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="850" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
