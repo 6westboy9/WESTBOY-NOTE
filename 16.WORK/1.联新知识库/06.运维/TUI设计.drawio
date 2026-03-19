@@ -37,18 +37,6 @@
         <mxCell id="aIVGFJ02YZdODolLvVdq-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="190" y="320" width="500" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="aIVGFJ02YZdODolLvVdq-12" value="&amp;nbsp;debug（13 - 500MB）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#CCCCCC;align=left;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="920" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="aIVGFJ02YZdODolLvVdq-13" value="&amp;nbsp;info（22 - 800MB" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="940" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="aIVGFJ02YZdODolLvVdq-14" value="&amp;nbsp;warn（24 - 1GB）" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="960" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="aIVGFJ02YZdODolLvVdq-15" value="&amp;nbsp;error（2 - 3MB）" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="450" y="980" width="160" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="aIVGFJ02YZdODolLvVdq-17" value="&amp;nbsp;log-debug-2026-03-18.0.log.zip" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;align=left;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="370" y="330" width="250" height="20" as="geometry" />
         </mxCell>
@@ -171,18 +159,6 @@
         </mxCell>
         <mxCell id="aIVGFJ02YZdODolLvVdq-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#CCCCCC;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="350" y="630" width="350" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3o_JbMmMKZdmMzG_tMAc-2" value="&amp;nbsp;debug（13 - 500MB）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#CCCCCC;align=left;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="710" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3o_JbMmMKZdmMzG_tMAc-3" value="&amp;nbsp;info（22 - 800MB" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="730" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3o_JbMmMKZdmMzG_tMAc-4" value="&amp;nbsp;warn（24 - 1GB）" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="750" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3o_JbMmMKZdmMzG_tMAc-5" value="&amp;nbsp;error（2 - 3MB）" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="770" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3o_JbMmMKZdmMzG_tMAc-7" value="&amp;nbsp;debug" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999900;strokeColor=#CCCCCC;align=center;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="200" y="330" width="60" height="20" as="geometry" />
