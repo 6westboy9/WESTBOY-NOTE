@@ -67,7 +67,7 @@
         <mxCell id="aIVGFJ02YZdODolLvVdq-27" value="2026-03-10" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="80" y="480" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aIVGFJ02YZdODolLvVdq-28" value="共30" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#666666;strokeColor=#CCCCCC;fontSize=10;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="aIVGFJ02YZdODolLvVdq-28" value="共30" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#333333;strokeColor=#CCCCCC;fontSize=10;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="590" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aIVGFJ02YZdODolLvVdq-29" value="100M" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;align=right;strokeColor=#CCCCCC;fontSize=10;fillColor=#333333;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -171,9 +171,6 @@
         </mxCell>
         <mxCell id="aIVGFJ02YZdODolLvVdq-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#CCCCCC;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="350" y="630" width="350" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3o_JbMmMKZdmMzG_tMAc-1" value="首页登录进来之后" style="text;html=1;whiteSpace=wrap;strokeColor=#CCCCCC;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="110" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3o_JbMmMKZdmMzG_tMAc-2" value="&amp;nbsp;debug（13 - 500MB）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#CCCCCC;align=left;fontFamily=Verdana;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="240" y="710" width="160" height="20" as="geometry" />
