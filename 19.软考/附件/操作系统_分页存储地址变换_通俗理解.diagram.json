@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "diagram_type": "address-translation",
+  "title": "分页存储：把逻辑地址拆成页号和页内偏移",
+  "theme": "edu-light",
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "blocks": [
+    {
+      "id": "banner",
+      "kind": "banner",
+      "x": 40,
+      "y": 40,
+      "width": 1480,
+      "height": 110,
+      "title": "先查页号映射到哪个物理块，再把页内偏移原样带过去",
+      "body": "页内地址本身就是偏移量，不需要变；真正要查的是“页号 -> 物理块号”的映射。"
+    },
+    {
+      "id": "logic",
+      "kind": "card",
+      "x": 60,
+      "y": 220,
+      "width": 280,
+      "height": 230,
+      "title": "逻辑地址",
+      "body": "页号 = 4\n页内地址 = 256\n\n页内地址可以理解为“块内第 256 个位置”。"
+    },
+    {
+      "id": "check",
+      "kind": "callout",
+      "x": 420,
+      "y": 230,
+      "width": 300,
+      "height": 210,
+      "title": "先检查页号是否合法",
+      "body": "若页号 >= 页表长度 L，则说明地址越界。\n\n只有合法页号，才能继续查页表。"
+    },
+    {
+      "id": "ptable",
+      "kind": "table",
+      "x": 800,
+      "y": 190,
+      "width": 320,
+      "height": 300,
+      "title": "页表",
+      "body": "页号 -> 物理块号\n0 -> 6\n1 -> 9\n3 -> 11\n4 -> 15\n5 -> 7\n6 -> 18\n\n现在查页号 4，所以得到物理块号 15。"
+    },
+    {
+      "id": "result",
+      "kind": "result",
+      "x": 1200,
+      "y": 220,
+      "width": 300,
+      "height": 240,
+      "title": "物理地址",
+      "body": "物理块号 = 15\n页内地址 = 256\n\n最终物理地址 = (15, 256)\n也就是“15 号块内偏移 256”。"
+    },
+    {
+      "id": "memory",
+      "kind": "callout",
+      "x": 70,
+      "y": 560,
+      "width": 660,
+      "height": 240,
+      "title": "记忆口诀",
+      "body": "1. 逻辑地址先拆：页号 + 页内地址\n2. 页号去查页表：找到物理块号\n3. 页内地址不变：直接作为块内偏移\n4. 物理块号 + 页内偏移 = 最终物理地址"
+    },
+    {
+      "id": "proscons",
+      "kind": "card",
+      "x": 850,
+      "y": 560,
+      "width": 650,
+      "height": 240,
+      "title": "优点与缺点",
+      "body": "优点：内存利用率高、碎片小、分配及管理简单。\n\n缺点：增加系统开销，地址转换时需要查页表，严重时可能产生抖动现象。"
+    }
+  ],
+  "connectors": [
+    {
+      "from": "logic",
+      "from_side": "right",
+      "to": "check",
+      "to_side": "left",
+      "label": "先检查页号"
+    },
+    {
+      "from": "check",
+      "from_side": "right",
+      "to": "ptable",
+      "to_side": "left",
+      "label": "合法则查页表"
+    },
+    {
+      "from": "ptable",
+      "from_side": "right",
+      "to": "result",
+      "to_side": "left",
+      "label": "得到物理块号"
+    }
+  ]
+}

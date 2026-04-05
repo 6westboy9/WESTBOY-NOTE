@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "diagram_type": "address-translation",
+  "title": "分页存储：把逻辑地址拆成页号和页内偏移",
+  "theme": "edu-light",
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "blocks": [
+    {
+      "id": "banner",
+      "kind": "banner",
+      "x": 40,
+      "y": 40,
+      "width": 1480,
+      "height": 100,
+      "title": "先查页号映射到哪个物理块，再把页内偏移原样带过去",
+      "body": "页内地址本身就是偏移量，不需要变。"
+    },
+    {
+      "id": "logic",
+      "kind": "card",
+      "x": 60,
+      "y": 220,
+      "width": 280,
+      "height": 230,
+      "title": "逻辑地址",
+      "body": "页号 = 4\n页内地址 = 256"
+    },
+    {
+      "id": "check",
+      "kind": "callout",
+      "x": 420,
+      "y": 230,
+      "width": 300,
+      "height": 210,
+      "title": "先检查页号是否合法",
+      "body": "若页号 >= 页表长度 L，则地址越界。\n只有合法页号，才能继续查页表。"
+    },
+    {
+      "id": "ptable",
+      "kind": "table",
+      "x": 800,
+      "y": 190,
+      "width": 320,
+      "height": 300,
+      "title": "页表",
+      "body": "页号 -> 物理块号\n0 -> 6\n1 -> 9\n3 -> 11\n4 -> 15\n5 -> 7\n6 -> 18"
+    },
+    {
+      "id": "result",
+      "kind": "result",
+      "x": 1200,
+      "y": 220,
+      "width": 300,
+      "height": 240,
+      "title": "物理地址",
+      "body": "物理块号 = 15\n页内地址 = 256\n\n最终结果 = (15, 256)"
+    }
+  ],
+  "connectors": [
+    {
+      "from": "logic",
+      "from_side": "right",
+      "to": "check",
+      "to_side": "left",
+      "label": "先检查页号"
+    },
+    {
+      "from": "check",
+      "from_side": "right",
+      "to": "ptable",
+      "to_side": "left",
+      "label": "合法则查页表"
+    },
+    {
+      "from": "ptable",
+      "from_side": "right",
+      "to": "result",
+      "to_side": "left",
+      "label": "得到物理块号"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
 interface:
-  display_name: "Obsidian Excalidraw Edu Diagram"
-  short_description: "Help with Obsidian Excalidraw Edu Diagram tasks"
+  display_name: "Obsidian Excalidraw 讲解图"
+  short_description: "在 Obsidian 中生成和修复可编辑的 Excalidraw 讲解图"
+  default_prompt: "使用 $obsidian-excalidraw-edu-diagram 为当前 Obsidian 笔记生成或修复一张可继续编辑的 Excalidraw 讲解图。"
+policy:
+  allow_implicit_invocation: true
